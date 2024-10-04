@@ -1,0 +1,52 @@
+form {
+  width: 80%;
+  margin: 5vh auto;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  width: 90%;
+}
+
+.yoda1 {
+  width: 20%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+.yoda2 {
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsj9kQJo848aYzBPRgLh889VSrYdZHJZ6_3g&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  body {
+    background-image: url(https://wallpapercave.com/wp/wp1931430.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 801px) {
+  body {
+    background-image: url(https://wallpapers.com/images/hd/picasso-three-musicians-painting-9heltwns9wrrtbo5.jpg);
+    background-size: cover;
+  }
+}
